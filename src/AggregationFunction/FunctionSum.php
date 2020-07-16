@@ -27,7 +27,7 @@ class FunctionSum implements IAggregationFunction
 	protected $result = 0;
 
 	/**
-	 * @var int
+	 * @var string
 	 */
 	protected $dataType;
 
@@ -39,7 +39,7 @@ class FunctionSum implements IAggregationFunction
 
 	/**
 	 * @param string $column
-	 * @param int $dataType
+	 * @param string $dataType
 	 */
 	public function __construct($column, $dataType = IAggregationFunction::DATA_TYPE_PAGINATED)
 	{
